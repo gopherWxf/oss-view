@@ -1,0 +1,126 @@
+/* 公共css */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.el-pagination.is-background .btn-next, .el-pagination.is-background .btn-prev, .el-pagination.is-background .el-pager li {
+    margin: 0 5px;
+    background-color: #4f4d4d;
+    color: #606266;
+    min-width: 30px;
+    border-radius: 2px;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color: rgba(63, 60, 60, 0.87);
+    color: #FFF;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled):hover {
+    color: #FFF;
+}
+
+.el-upload-list {
+    display: none;
+}
+
+.wrapper {
+    width: 440px;
+    height: 70px;
+    position: absolute;
+    margin-top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.wrapper-header {
+    margin-top: 10px;
+}
+
+.wrapper span, .wrapper-header span {
+
+    font-size: 18px;
+    font-weight: bold;
+    color: #e7e6e6;
+    animation: lighting 1s alternate infinite ease;
+}
+
+@keyframes lighting {
+    0%, 85% {
+        color: #b0adad;
+        text-shadow: none;
+    }
+    100% {
+        color: #e8e8e8;
+        text-shadow: 0 0 1px #5e5e5e, 0 0 3px #cbcddc;
+    }
+}
+
+.wrapper span:nth-child(1), .wrapper-header span:nth-child(1) {
+    animation-delay: 150ms;
+}
+
+.wrapper span:nth-child(2), .wrapper-header span:nth-child(2) {
+    animation-delay: 300ms;
+}
+
+.wrapper span:nth-child(3), .wrapper-header span:nth-child(3) {
+    animation-delay: 450ms;
+}
+
+.wrapper span:nth-child(4), .wrapper-header span:nth-child(4) {
+    animation-delay: 600ms;
+}
+
+.wrapper span:nth-child(5), .wrapper-header span:nth-child(5) {
+    animation-delay: 750ms;
+}
+
+.wrapper span:nth-child(6), .wrapper-header span:nth-child(6) {
+    animation-delay: 900ms;
+}
+
+.wrapper span:nth-child(7), .wrapper-header span:nth-child(7) {
+    animation-delay: 1050ms;
+}
+
+.wrapper span:nth-child(8), .wrapper-header span:nth-child(8) {
+    animation-delay: 1200ms;
+}
+
+.wrapper span:nth-child(9), .wrapper-header span:nth-child(9) {
+    animation-delay: 1350ms;
+}
+
+.wrapper span:nth-child(10), .wrapper-header span:nth-child(10) {
+    animation-delay: 1500ms;
+}
+
+.wrapper span:nth-child(11), .wrapper-header span:nth-child(11) {
+    animation-delay: 1650ms;
+}
+
+.wrapper span:nth-child(12), .wrapper-header span:nth-child(12) {
+    animation-delay: 1800ms;
+}
+
+.wrapper span:nth-child(13), .wrapper-header span:nth-child(13) {
+    animation-delay: 1950ms;
+}
+
+.wrapper span:nth-child(14), .wrapper-header span:nth-child(14) {
+    animation-delay: 2100ms;
+}
+
+
